@@ -1,0 +1,176 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container{
+    width: 1200px;
+    height: 500px;
+    margin: auto;
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+.container-left{
+    width: 49%;
+    height: 100%;
+}
+.container-right{
+    width:49%;
+    height: 100%;
+}
+.box-name, .box-email{
+    display: flex;
+    justify-content: space-between;
+}
+.first-name ,.last-name{
+    width: 49%;
+    height: auto;
+}
+.name{
+    width: 100%;
+    height: 40px;
+    border-radius: 6px;
+    padding: 0 15px;
+    border: 1px solid rgba(126, 122, 122, 0.767);
+    outline: none;
+    margin-top: 8px;
+}
+input{
+    border-radius: 6px;
+    padding: 0 15px;
+    border: 1px solid rgba(126, 122, 122, 0.767);
+    outline: none;
+    margin-top: 8px;
+}
+input:focus{
+    box-shadow: 0 0 1px 2px skyblue;
+}
+.country{
+    width: 100%;
+    height: 40px;
+    border-radius: 6px;
+    margin-top: 8px;
+    padding: 0 15px;
+    border: 1px solid rgba(126, 122, 122, 0.767);
+    outline: none;
+}
+.country:focus{
+    box-shadow: 0 0 1px 2px skyblue;
+}
+textarea{
+    width: 100%;
+    margin-top:8px ;
+    outline: none;
+    border-radius: 6px;
+}
+textarea:focus{
+    box-shadow: 0 0 1px 2px skyblue;
+  
+}
+.box-city{
+    margin-top: 8px;
+    display: flex;
+    justify-content: space-between;
+}
+.city ,.pastol-code{
+    width: 49%;
+    height: auto;
+}
+.code{
+    width: 150px;
+    height: 40px;
+    border-radius: 6px;
+    margin-top: 8px;
+    padding: 0 15px;
+    border: 1px solid rgba(126, 122, 122, 0.767);
+    outline: none;
+}
+.email ,.phone{
+    width: 49%;
+    height: auto;
+    margin-top: 8px;
+}
+.agree1{
+    width: 100%;
+    height: auto;
+    font-size: 20px;
+}
+.checkbox1{
+    width: 20px;
+    height: 20px;
+    margin-top: -1px;
+}
+.checkbox:focus{
+    box-shadow: none;
+}
+.price{
+    display: flex;
+    font-size: 20px;
+    margin-top: 8px;
+}
+.checkbox{
+    width: 20px;
+    height: 20px;
+    margin-left: 20px;
+    margin-top: -1px;
+}
+.agree{
+    width: 100%;
+    height: auto;
+    font-size: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.other{
+    width: 210px;
+    height: 40px;
+    border-radius: 6px;
+    margin-top: 8px;
+    padding: 0 15px;
+    border: 1px solid rgba(126, 122, 122, 0.767);
+    outline: none;
+}
+.card{
+    width: 100%;
+    height: 40px;
+    border-radius: 6px;
+    padding: 0 15px;
+    border: 1px solid rgba(126, 122, 122, 0.767);
+    outline: none;
+    margin-top: 8px;
+}
+
+img{
+    width: 90px;
+    height: 50px;
+}
+.box-date{
+    display: flex;
+    justify-content: space-between;
+}
+.year{
+    width: 110px;
+    height: 40px;
+}
+.month{
+    width: 160px;
+    height: 40px;
+}
+.cvv{
+    width: 280px;
+    height: 40px;
+}
+.box-save{
+    width: 270px;
+    height: 40px;
+    background-color: #0d6d65;
+    color: #fff;
+    border: 1px solid rgba(126, 122, 122, 0.767);
+    border-radius: 6px;
+}
+.box-save p{
+    padding: 10px 122px;
+    font-size: 16px;
+}
